@@ -22,7 +22,7 @@ import com.example.demosocialnetwork.entities.FriendEntity;
 import com.example.demosocialnetwork.respositories.FriendRepo;
 
 @RestController
-@RequestMapping(path = "/user")
+@RequestMapping(path = "/friend")
 public class FriendController {
 	
 	@Autowired
@@ -133,3 +133,8 @@ public class FriendController {
 	}
 
 }
+
+
+
+
+

@@ -23,7 +23,7 @@ import com.example.demosocialnetwork.entities.PostEntity;
 import com.example.demosocialnetwork.respositories.PostRepo;
 
 @RestController
-@RequestMapping(path = "/user")
+@RequestMapping(path = "/post")
 public class PostController {
 	
 	@Autowired
