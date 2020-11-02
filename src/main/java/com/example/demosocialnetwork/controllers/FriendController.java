@@ -18,9 +18,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demosocialnetwork.dtos.FriendDto;
-import com.example.demosocialnetwork.dtos.UserDto;
 import com.example.demosocialnetwork.entities.FriendEntity;
-import com.example.demosocialnetwork.entities.UserEntity;
 import com.example.demosocialnetwork.respositories.FriendRepo;
 
 @RestController
